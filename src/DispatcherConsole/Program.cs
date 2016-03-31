@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ServiceModel;
 
 namespace DispatcherConsole
 {
@@ -10,6 +7,11 @@ namespace DispatcherConsole
     {
         static void Main(string[] args)
         {
+            var host = new ServiceHost(typeof(Dispatcher.EventHandler));
+            host.Open();
+            Console.WriteLine("\r\nListening to incoming events. Press ENTER to exit...\r\n");
+            Console.ReadLine();
+            host.Close();
         }
     }
 }
