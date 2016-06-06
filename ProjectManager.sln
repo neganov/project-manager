@@ -20,6 +20,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispatcher", "src\Dispatche
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectExtensions", "src\ProjectExtensions\ProjectExtensions.csproj", "{3A9050F9-ECD1-4A90-8C45-A60813FC8B1F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{352AA5D0-F6A1-469A-BE0D-5F99170F4120}"
+	ProjectSection(SolutionItems) = preProject
+		libs\jspdf.debug.js = libs\jspdf.debug.js
+		libs\jspdf.min.js = libs\jspdf.min.js
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlConverter", "src\HtmlConverter\HtmlConverter.csproj", "{9AA10B4B-EC50-4D6C-A6BD-29ED82CC475D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{923A48A1-9D9D-408A-B6C1-DCE045F2F705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{C5186C06-B968-4D3A-B560-C2D86E98F8E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +58,14 @@ Global
 		{3A9050F9-ECD1-4A90-8C45-A60813FC8B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9050F9-ECD1-4A90-8C45-A60813FC8B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9050F9-ECD1-4A90-8C45-A60813FC8B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA10B4B-EC50-4D6C-A6BD-29ED82CC475D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA10B4B-EC50-4D6C-A6BD-29ED82CC475D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA10B4B-EC50-4D6C-A6BD-29ED82CC475D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA10B4B-EC50-4D6C-A6BD-29ED82CC475D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5186C06-B968-4D3A-B560-C2D86E98F8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5186C06-B968-4D3A-B560-C2D86E98F8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5186C06-B968-4D3A-B560-C2D86E98F8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5186C06-B968-4D3A-B560-C2D86E98F8E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,5 +76,7 @@ Global
 		{5841AE7B-462A-4E96-9CF2-BC2497CFEBC1} = {5F5B5D4D-CA05-4988-A5C9-A69FE6E22D81}
 		{FBA46523-9B60-493B-AB4C-D3F2610269B9} = {5F5B5D4D-CA05-4988-A5C9-A69FE6E22D81}
 		{3A9050F9-ECD1-4A90-8C45-A60813FC8B1F} = {5F5B5D4D-CA05-4988-A5C9-A69FE6E22D81}
+		{9AA10B4B-EC50-4D6C-A6BD-29ED82CC475D} = {5F5B5D4D-CA05-4988-A5C9-A69FE6E22D81}
+		{C5186C06-B968-4D3A-B560-C2D86E98F8E2} = {923A48A1-9D9D-408A-B6C1-DCE045F2F705}
 	EndGlobalSection
 EndGlobal
